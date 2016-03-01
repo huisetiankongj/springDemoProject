@@ -19,6 +19,5 @@
         http://www.springframework.org/schema/aop/spring-aop.xsd">
         
         
-    <bean class="org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor"/>  
         
 </beans>        
