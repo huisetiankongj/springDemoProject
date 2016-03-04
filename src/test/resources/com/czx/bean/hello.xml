@@ -8,6 +8,8 @@
 	http://www.springframework.org/schema/beans/spring-beans-3.0.xsd  
 	http://www.springframework.org/schema/context                
 	http://www.springframework.org/schema/context/spring-context-3.0.xsd">  
-  	<!-- id 表示你这个组件的名字，class表示组件类 -->  
-	<bean id="hello" class="com.czx.bean.HelloService"></bean>  
+  	<!-- name 表示你这个组件的名字，class表示组件类 -->  
+	<bean name="hello" class="com.czx.bean.HelloService"></bean>  
+	
+	<alias alias="aliasHello" name="hello"/>  
 </beans> 
